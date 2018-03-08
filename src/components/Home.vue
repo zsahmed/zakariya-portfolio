@@ -6,7 +6,7 @@
         <h3>Gundam Enthusiast.</h3>
       </div>
     </div>
-
+    <hr>
     <div class="home-content">
       <div class="about-me">
         <h1>Hello There!</h1>
@@ -208,6 +208,11 @@ export default {
     text-align: center;
     margin-top: 0px;
     padding-top: 20px;
+  }
+
+  hr {
+    margin: 0;
+    border-top: 5px solid #34495e;
   }
 
   body {
