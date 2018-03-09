@@ -143,15 +143,15 @@ export default {
   }
 
   .all {
-    border-bottom: 5px solid #38a0e7;
+    border-bottom: 5px solid #2E8B57;
   }
 
   .professional {
-    border-bottom: 5px solid #38a0e7;
+    border-bottom: 5px solid #2F4F4F;
   }
 
   .personal {
-    border-bottom: 5px solid #38a0e7;
+    border-bottom: 5px solid #4B0082;
   }
 
   hr {
