@@ -12,7 +12,7 @@
         <h1>Hello There!</h1>
         <p class="description">
           Thanks for visiting my page! My name is Zakariya, Zak for short. I gratuated from UT Dallas in 2016, and for the past two years I've
-          been working as a full stack developer and technology consultant for Credera. Most of my time is spent working on our clients'
+          been working as a full stack developer and technology consultant at Credera. Most of my time is spent working on our clients'
           web applications, helping them solve their toughest technology challanges to meet the demands of 21st century consumers. My main area of
           expertise is SOA (service oriented architecture), building micro-service applications, and front-end technologies such as VueJS and AngularJS.
           I love working in an agile software development lifecycle and getting to constantly iterate and improve upon the features we build for our
@@ -208,6 +208,8 @@ export default {
     text-align: center;
     margin-top: 0px;
     padding-top: 20px;
+    color: #14466b;
+    font-family: 'Muli';
   }
 
   hr {

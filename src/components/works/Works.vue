@@ -5,12 +5,26 @@
 
     <div class="toggle-container">
       <div class="row">
-        <button class="btn btn-success" @click="showAll">All Projects</button>
-        <button class="btn btn-danger" @click="showProfessional">Professional</button>
-        <button class="btn btn-danger" @click="showPersonal">Personal</button>
+        <ul class="nav-tabs">
+          <li
+            class="tab"
+            :class="{all: dynamicCss.attachAll}"
+            @click="showAll">
+            All Projects
+          </li>
+          <li
+            class="tab"
+            :class="{professional: dynamicCss.attachProfessional}"
+            @click="showProfessional">
+            Professional</li>
+          <li
+            class="tab"
+            :class="{personal: dynamicCss.attachPersonal}"
+            @click="showPersonal">
+            Personal</li>
+        </ul>
       </div>
     </div>
-
 
     <template v-if="professional">
       <app-opp-leads-project></app-opp-leads-project>
@@ -44,21 +58,38 @@ export default {
   data() {
     return {
       personal: true,
-      professional: true
+      professional: true,
+      dynamicCss: {
+        attachAll: true,
+        attachProfessional: false,
+        attachPersonal: false
+      }
     }
   },
   methods: {
     showPersonal() {
       this.personal = true;
       this.professional = false;
+
+      this.dynamicCss.attachAll = false;
+      this.dynamicCss.attachProfessional = this.professional;
+      this.dynamicCss.attachPersonal = this.personal;
     },
     showProfessional() {
       this.personal = false;
       this.professional = true;
+
+      this.dynamicCss.attachAll = false;
+      this.dynamicCss.attachProfessional = this.professional;
+      this.dynamicCss.attachPersonal = this.personal;
     },
     showAll() {
       this.personal = true;
       this.professional = true;
+
+      this.dynamicCss.attachAll = true;
+      this.dynamicCss.attachProfessional = false;
+      this.dynamicCss.attachPersonal = false;
     }
   },
   components: {
@@ -77,6 +108,7 @@ export default {
 <style lang="css" scoped>
   .works-container {
     overflow-x: hidden;
+    font-family: 'Muli';
   }
 
   .landingPage {
@@ -87,13 +119,47 @@ export default {
   }
 
   .toggle-container {
-    width: 90%;
+    background-color: #fafafa;
+  }
+
+  .row {
     margin: auto;
-    margin-bottom: 50px;
+    padding: 50px 0 50px 0;
+  }
+
+  .nav-tabs {
+    list-style: none;
+    border-bottom: none;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .tab {
+    font-size: 18px;
+    float: none;
+    display: inline;
+    padding-left: 100px;
+    padding-right: 10px;
+  }
+
+  .all {
+    border-bottom: 5px solid #38a0e7;
+  }
+
+  .professional {
+    border-bottom: 5px solid #38a0e7;
+  }
+
+  .personal {
+    border-bottom: 5px solid #38a0e7;
   }
 
   hr {
-    margin: 0 0 40px 0;
+    margin: 0;
     border-top: 5px solid #34495e;
+  }
+
+  body {
+
   }
 </style>
