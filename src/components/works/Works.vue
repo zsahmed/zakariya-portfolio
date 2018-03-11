@@ -71,25 +71,24 @@ export default {
       this.personal = true;
       this.professional = false;
 
-      this.dynamicCss.attachAll = false;
-      this.dynamicCss.attachProfessional = this.professional;
-      this.dynamicCss.attachPersonal = this.personal;
+      this.updateTabCss(false, false, true);
     },
     showProfessional() {
       this.personal = false;
       this.professional = true;
 
-      this.dynamicCss.attachAll = false;
-      this.dynamicCss.attachProfessional = this.professional;
-      this.dynamicCss.attachPersonal = this.personal;
+      this.updateTabCss(false, true, false);
     },
     showAll() {
       this.personal = true;
       this.professional = true;
 
-      this.dynamicCss.attachAll = true;
-      this.dynamicCss.attachProfessional = false;
-      this.dynamicCss.attachPersonal = false;
+      this.updateTabCss(true, false, false);
+    },
+    updateTabCss(attachAll, attachProfessional, attachPersonal) {
+      this.dynamicCss.attachAll = attachAll;
+      this.dynamicCss.attachProfessional = attachProfessional;
+      this.dynamicCss.attachPersonal = attachPersonal;
     }
   },
   components: {
@@ -112,7 +111,7 @@ export default {
   }
 
   .landingPage {
-    background-image: url("../../assets/projects/worksLandingPage.jpg");
+    background-image: url("../../assets/projects/worksLandingPage.png");
     background-size: cover;
     width: 100%;
     height: 500px;
