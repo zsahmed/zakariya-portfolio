@@ -71,6 +71,7 @@ h1 {
 
 h2 {
   text-align: center;
+  margin-top: 35px;
 }
 
 h3 {

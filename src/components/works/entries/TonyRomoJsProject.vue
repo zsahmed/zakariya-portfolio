@@ -27,7 +27,7 @@
 
           <a class="btn btn-success" href="https://github.com/zsahmed/zsahmed.github.io">View Code</a>
           <a class="btn btn-danger" href="http://zsahmed.github.io/">Play!</a>
-          
+
     </div>
     <div class="image-container col-md-6"></div>
   </div>
@@ -67,6 +67,7 @@ h1 {
 
 h2 {
   text-align: center;
+  margin-top: 35px;
 }
 
 h3 {

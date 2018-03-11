@@ -6,18 +6,18 @@
         <h1>Gunpla Webscraper</h1>
         <h3>November 2017</h3>
         <p>
-          To be fair, I should not get a lot of credit for this one. This is a webscraper designed to pull information about
-          Gundam model kits from a wiki page. Most of the work was already done by Jorick Caberio (view his Medium article about webscraping
-          <a :href="mediumLink">here</a> )
+          To be fair, don't give me too much credit for this one. This is a webscraper designed to pull information about
+          Gundam model kits from a wiki page. Most of the work was completed by Jorick Caberio (view his Medium article about webscraping
+          <a :href="mediumLink">here</a>).
         </p>
         <p>
-          I'm a huge fan of the Japanese Gundam franchise, as well as building the model kits. I wanted to build a project using information on
-          the model kits, so I started looking around for an API that might exist. I stumbled upon Jorick's webscraper and decided to pull it down.
+          I'm a huge fan of the Japanese <i>Gundam</i> franchise, as well as building their model kits. I wanted to build a project using information on
+          the kits, so I started looking around for an API that might exist. I stumbled upon Jorick's webscraper and decided to pull it down.
           Once I got it working, I noticed that it was only giving me information on the first 5 kits. The wiki page had been modified since
           Jorick originally created this webscraper, so it was no longer functioning as designed.
         </p>
         <p>
-          Here was my problem: I wanted to scrape the info on these model kits. I didn't want to do it by hand ( there's 190+ kits! ). I tried
+          Here was my problem: I wanted to scrape the info on these model kits. I didn't want to do it by hand ( they're 190+ kits! ). I tried
           contacting Jorick to no avail. I could try learning Python and Selenium, but with a 40 hour work week and other responsibilities, that would
           take too long. The quickest and best option was to attempt to update the existing Pyton script to work for the new wiki page.
         </p>
@@ -25,9 +25,24 @@
           Thankfully, I was able to get it working with a few edits! After successfully pulling down the data, I created a NodeJS script to iterate
           through the list of kits and assign them ids. From there, I uploaded my data to Firebase to be used as an API.
         </p>
-        <span> Technologies Used: Python, Selenium, NodeJS, Firebase, Git</span>
-        <a class="btn btn-success" href="https://github.com/zsahmed/gunpla_webscraper">View Code</a>
-        <a class="btn btn-danger" href="https://mg-gunpla-api.firebaseio.com/gunpla.json">View Firebase API</a>
+
+        <h2>Technologies Used</h2>
+
+        <div class="row">
+          <span class="col-md-2 col-md-offset-3">Python</span>
+          <span class="col-md-2 col-md-offset-3">Git</span>
+        </div>
+
+        <div class="row">
+          <span class="col-xs-2 col-md-offset-3">NodeJS</span>
+          <span class="col-xs-2 col-md-offset-3">Firebase</span>
+        </div>
+
+        <div class="button-row">
+          <a class="btn btn-success" href="https://github.com/zsahmed/gunpla_webscraper">View Code</a>
+          <a class="btn btn-danger" href="https://mg-gunpla-api.firebaseio.com/gunpla.json">View Firebase API</a>
+        </div>
+
     </div>
   </div>
 </template>
@@ -50,9 +65,9 @@ export default {
 }
 
 .image-container {
-  background-image: url("../../../assets/projects/tonyRomo.png");
+  background-image: url("../../../assets/projects/dom.png");
   background-size: cover;
-  height: 600px;
+  height: 700px;
   display: table-cell;
 }
 
@@ -63,8 +78,23 @@ export default {
   height: 100%;
 }
 
+.button-row {
+  margin-top: 20px;
+}
+
 h1 {
   font-size: 32px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 35px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
 
 p {

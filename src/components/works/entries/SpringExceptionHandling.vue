@@ -4,7 +4,7 @@
         <h1>Custom Spring Exception Handling</h1>
         <h3>October 2017</h3>
         <p>
-          When I first started at Credera, I was mainly working on the front-end of our clients' web applications. The back-end services
+          When I first started at Credera I was working on the front-end of our clients' web applications. The back-end services
           were all Java Spring microservices. It was hard for me to get into back-end development at first. The main barrier to entry
           for me was how to understand and debug 500 errors that originated from these services. I could set up remote debugging, but when
           an application had an api call that would call into one microservice, which would then call into another, and another, and so on, it
@@ -21,10 +21,16 @@
           to inform the caller of any bugs or actions that are not allowed. I want to make this into a sort of tutorial that other developers may use
           to set up their own Spring exception handling.
         </p>
-        <span> Technologies Used: Spring Boot</span>
+        <h2>Technologies Used</h2>
+
+        <div class="row">
+          <span class="col-md-2 col-md-offset-3">Spring Boot</span>
+          <span class="col-md-2 col-md-offset-3">Java</span>
+        </div>
         <a class="btn btn-success" href="https://github.com/zsahmed/spring-exception-handling">View Code</a>
     </div>
     <div class="image-container col-md-6">
+      <img src="../../../assets/projects/spring.png">
     </div>
   </div>
 </template>
@@ -43,10 +49,9 @@ export default {
 }
 
 .image-container {
-  background-image: url("../../../assets/projects/rickAndMortySoundboard.png");
-  background-size: cover;
   height: 100%;
   display: table-cell;
+  background-color: #fafafa;
 }
 
 .content {
@@ -60,13 +65,26 @@ h1 {
   font-size: 32px;
 }
 
+h2 {
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
 p {
   width: 100%;
 }
 
-span {
-  display: block;
-  margin-bottom: 15px;
+a {
+  margin-top: 20px;
+}
+
+img {
+  margin: 170px 0 170px 0;
 }
 
 </style>
