@@ -13,8 +13,24 @@
           found during the warranty period by QA. Most of my time was spent fixing front-end bugs and helping the BI team map data generated
           by the database's stored procedures to the correct front-end views.
         </p>
-        <span> Technologies Used: AngularJS, HTML, CSS, Spring Boot, Jenkins, Kanban</span>
-        <a class="btn btn-success" :href="savingsActualizerRelease">Read About Savings Actualizer</a>
+
+        <h2>Technologies Used</h2>
+
+        <div class="row">
+          <span class="col-md-4">AngularJS</span>
+          <span class="col-md-4">HTML</span>
+          <span class="col-md-4">CSS</span>
+        </div>
+
+        <div class="row">
+          <span class="col-md-4">Spring Boot</span>
+          <span class="col-md-4">Jenkins</span>
+          <span class="col-md-4">Kanban</span>
+        </div>
+
+        <div class="button-row">
+          <a class="btn btn-success" :href="savingsActualizerRelease">Read About Savings Actualizer</a>
+        </div>
     </div>
     <div class="image-container col-md-6">
     </div>
@@ -41,7 +57,7 @@ export default {
 
 .image-container {
   background-image: url("../../../assets/projects/vizient.jpg");
-  background-size: cover;
+  background-position: center;
   height: 100%;
   display: table-cell;
 }
@@ -53,8 +69,28 @@ export default {
   height: 100%;
 }
 
+.row {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.button-row {
+  margin-top: 20px;
+}
+
 h1 {
   font-size: 32px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 35px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
 
 p {
@@ -64,6 +100,7 @@ p {
 span {
   display: block;
   margin-bottom: 15px;
+  text-align: center;
 }
 
 </style>
