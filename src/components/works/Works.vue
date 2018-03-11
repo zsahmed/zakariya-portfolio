@@ -1,7 +1,7 @@
 <template lang="html">
   <div class="works-container">
     <div class="landingPage"></div>
-    <hr>
+    <hr class="landingPage-hr">
 
     <div class="toggle-container">
       <div class="row">
@@ -24,6 +24,7 @@
             Personal</li>
         </ul>
       </div>
+      <hr class="toggle-container-hr">
     </div>
 
     <template v-if="professional">
@@ -153,10 +154,19 @@ export default {
     border-bottom: 5px solid #4B0082;
   }
 
-  hr {
+  .landingPage-hr {
     margin: 0;
     border-top: 5px solid #34495e;
   }
+
+  .toggle-container-hr {
+    margin-bottom: 0;
+  }
+
+  /* hr {
+
+    #eaeaea
+  } */
 
   body {
 

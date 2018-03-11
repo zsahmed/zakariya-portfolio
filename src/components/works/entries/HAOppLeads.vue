@@ -1,9 +1,7 @@
 <template lang="html">
   <div class="col-container">
     <div class="image-container col-md-6">
-      <div>
         <img src="../../../assets/projects/homeadvisor.png"></img>
-      </div>
     </div>
     <div class="col-md-6 content">
         <h1>HomeAdvisor - Opportunity Leads</h1>
@@ -37,8 +35,33 @@
           didn't think was possible. The team is still working on continuous improvements to the product, but I can happily say it is currently out in
           production generating revenue for the client!
         </p>
-        <span> Technologies Used: Spring Boot, Maven, Oracle SQL, Jenkins, Apache Kafka, ElasticSearch, Coherence, Groovy, JIRA, Confluence, Git</span>
-        <span> Source Code Available Upon Request.</span>
+
+        <h2>Technologies Used</h2>
+
+        <div class="row">
+          <span class="col-md-4">Spring Boot</span>
+          <span class="col-md-4">Maven</span>
+          <span class="col-md-4">Oracle SQL</span>
+        </div>
+
+        <div class="row">
+          <span class="col-md-4">Jenkins</span>
+          <span class="col-md-4">Apache Kafka</span>
+          <span class="col-md-4">ElasticSearch</span>
+        </div>
+
+        <div class="row">
+          <span class="col-md-4">Coherence</span>
+          <span class="col-md-4">Groovy</span>
+          <span class="col-md-4">JIRA</span>
+        </div>
+
+        <div class="row">
+          <span class="col-md-4">Confluence</span>
+          <span class="col-md-4 col-md-offset-4">Git</span>
+        </div>
+
+        <span class="source-code"> Source Code Available Upon Request.</span>
     </div>
   </div>
 </template>
@@ -70,8 +93,28 @@ export default {
   height: 100%;
 }
 
+.row {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.source-code {
+
+}
+
 h1 {
   font-size: 32px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 35px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
 
 p {
@@ -81,6 +124,15 @@ p {
 span {
   display: block;
   margin-bottom: 15px;
+  text-align: center;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 270px;
+  margin-bottom: 270px;
 }
 
 </style>
