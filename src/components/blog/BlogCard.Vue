@@ -17,6 +17,7 @@ export default {
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
+  color: #34495e;
 }
 
 
@@ -28,9 +29,9 @@ export default {
 	display: block;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
-  border-top: 1px solid #00008B;
-  border-left: 1px solid #00008B;
-  border-right: 1px solid #00008B;
+  border-top: 1px solid #34495e;
+  border-left: 1px solid #34495e;
+  border-right: 1px solid #34495e;
   border-bottom: 2px solid black;
 }
 
@@ -39,8 +40,8 @@ export default {
   padding: 10px 15px 10px 15px;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
-  border-bottom: 2px solid #00008B;
-  border-left: 2px solid #00008B;
-  border-right: 2px solid #00008B;
+  border-bottom: 2px solid #34495e;
+  border-left: 2px solid #34495e;
+  border-right: 2px solid #34495e;
 }
 </style>

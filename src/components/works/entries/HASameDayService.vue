@@ -28,10 +28,39 @@
           Besides development, I was also in charge of creating testing scenarios for QA. We used Confluence to document all testing scenarios, and JIRA
           was our agile tool of choice to keep track of the features we were building.
         </p>
-        <span> Technologies Used: Spring Boot, Maven, Oracle SQL, Jenkins, Apache Kafka, ElasticSearch, Coherence, Groovy, JIRA, Confluence, Git</span>
+
+        <h2>Technologies Used</h2>
+
+        <div class="row">
+          <span class="col-md-4">Spring Boot</span>
+          <span class="col-md-4">Maven</span>
+          <span class="col-md-4">Oracle SQL</span>
+        </div>
+
+        <div class="row">
+          <span class="col-md-4">Jenkins</span>
+          <span class="col-md-4">Apache Kafka</span>
+          <span class="col-md-4">ElasticSearch</span>
+        </div>
+
+        <div class="row">
+          <span class="col-md-4">Coherence</span>
+          <span class="col-md-4">Groovy</span>
+          <span class="col-md-4">JIRA</span>
+        </div>
+
+        <div class="row">
+          <span class="col-md-4">Confluence</span>
+          <span class="col-md-4 col-md-offset-4">Git</span>
+        </div>
+
         <span> Source Code Available Upon Request.</span>
     </div>
-    <div class="image-container col-md-6"></div>
+
+    <div class="image-container col-md-6">
+        <img src="../../../assets/projects/homeadvisor.png"></img>
+    </div>
+
   </div>
 </template>
 
@@ -46,17 +75,16 @@ export default {
   display: table; /* Make the container element behave like a table */
   width: 100%; /* Set full-width to expand the whole page */
   height: 700px;
+  background-color: #fafafa;
 }
 
 .image-container {
-  background-image: url("../../../assets/projects/vizient.jpg");
   background-size: cover;
   height: 100%;
   display: table-cell;
 }
 
 .content {
-  background-color: white;
   padding-left: 25px;
   display: table-cell;
   height: 100%;
@@ -66,6 +94,17 @@ h1 {
   font-size: 32px;
 }
 
+h2 {
+  text-align: center;
+  margin-top: 35px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
 p {
   width: 100%;
 }
@@ -73,6 +112,15 @@ p {
 span {
   display: block;
   margin-bottom: 15px;
+  text-align: center;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 270px;
+  margin-bottom: 270px;
 }
 
 </style>
