@@ -14,21 +14,22 @@
           for PhaserJS which built the game Asteroids from scratch, and then I decided to add my own little spin on it.
         </p>
           <h2>Technologies Used</h2>
+
           <div class="row">
             <span class="col-md-2 col-md-offset-3">JavaScript</span>
             <span class="col-md-2 col-md-offset-3">PhaserJS</span>
           </div>
+
           <div class="row">
             <span class="col-xs-2 col-md-offset-3">HTML</span>
             <span class="col-xs-2 col-md-offset-3">Git</span>
           </div>
-            <a class="btn btn-success" href="https://github.com/zsahmed/zsahmed.github.io">View Code</a>
-            <a class="btn btn-danger" href="http://zsahmed.github.io/">Play!</a>
 
+          <a class="btn btn-success" href="https://github.com/zsahmed/zsahmed.github.io">View Code</a>
+          <a class="btn btn-danger" href="http://zsahmed.github.io/">Play!</a>
+          
     </div>
-    <div class="image-container col-md-6">
-      <!-- <img src="../../../assets/projects/tonyRomo.png" alt=""> -->
-    </div>
+    <div class="image-container col-md-6"></div>
   </div>
 </template>
 
@@ -51,11 +52,6 @@ export default {
   background-size: contain;
   height: 500px;
   display: table-cell;
-}
-
-img {
-  max-width: 100%;
-  max-height: 100%;
 }
 
 .content {
