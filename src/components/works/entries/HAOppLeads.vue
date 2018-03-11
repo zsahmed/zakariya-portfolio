@@ -1,6 +1,10 @@
 <template lang="html">
   <div class="col-container">
-    <div class="image-container col-md-6"></div>
+    <div class="image-container col-md-6">
+      <div>
+        <img src="../../../assets/projects/homeadvisor.png"></img>
+      </div>
+    </div>
     <div class="col-md-6 content">
         <h1>HomeAdvisor - Opportunity Leads</h1>
         <h3>September 2017 - April 2018</h3>
@@ -53,8 +57,8 @@ export default {
 }
 
 .image-container {
-  background-image: url("../../../assets/projects/vizient.jpg");
-  background-size: cover;
+  /* background-image: url("../../../assets/projects/homeadvisor.png");
+  background-size: cover; */
   height: 100%;
   display: table-cell;
 }

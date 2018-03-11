@@ -1,7 +1,7 @@
 <template lang="html">
   <div v-cloak>
     <div class="landingPage"></div>
-
+    <hr>
     <router-view>
     </router-view>
 
@@ -19,6 +19,10 @@ export default {
     background-size: cover;
     width: 100%;
     height: 500px;
-    margin-bottom: 50px;
+  }
+
+  hr {
+    margin: 0 0 50px 0;
+    border-top: 5px solid #34495e;
   }
 </style>
