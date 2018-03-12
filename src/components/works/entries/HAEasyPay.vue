@@ -1,6 +1,15 @@
 <template lang="html">
   <div class="col-container">
-    <div class="image-container col-md-6"></div>
+    <div class="image-container col-md-6">
+      <slider :auto="false">
+        <slider-item>
+          <img src="../../../assets/projects/vizient.jpg">
+        </slider-item>
+        <slider-item>
+          <img src="../../../assets/projects/vizient.jpg">
+        </slider-item>
+      </slider>
+    </div>
     <div class="col-md-6 content">
         <h1>HomeAdvisor - EasyPay</h1>
         <h3>Janurary 2017 - March 2017</h3>
@@ -49,8 +58,14 @@
 </template>
 
 <script>
-export default {
-}
+import { Slider, SliderItem } from 'vue-easy-slider'
+
+  export default {
+    components: {
+    Slider,
+    SliderItem
+  }
+  }
 </script>
 
 <style scoped>
@@ -62,8 +77,8 @@ export default {
 }
 
 .image-container {
-  background-image: url("../../../assets/projects/vizient.jpg");
-  background-size: cover;
+  /* background-image: url("../../../assets/projects/vizient.jpg");
+  background-size: cover; */
   height: 100%;
   display: table-cell;
 }
