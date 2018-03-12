@@ -49,7 +49,7 @@ export default {
 
 .image-container {
   background-image: url("../../../assets/projects/tonyRomo.png");
-  background-size: contain;
+  background-size: cover;
   height: 500px;
   display: table-cell;
 }
