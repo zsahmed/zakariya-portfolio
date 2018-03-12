@@ -1,5 +1,5 @@
 <template lang="html">
-  <div v-cloak>
+  <div class="blog-container">
     <div class="landingPage"></div>
     <hr>
     <router-view>
@@ -19,6 +19,10 @@ export default {
     background-size: cover;
     width: 100%;
     height: 500px;
+  }
+
+  .blog-container {
+    background-color: #fafafa;
   }
 
   hr {
