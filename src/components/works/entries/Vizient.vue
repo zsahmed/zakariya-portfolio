@@ -76,6 +76,7 @@ export default {
 
 .button-row {
   margin-top: 20px;
+  text-align: center;
 }
 
 h1 {
