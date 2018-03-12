@@ -61,7 +61,7 @@
           </div>
 
           <div class="row">
-            <div class="col-xs-6 col-sm-4 col-md-2 space-top">
+            <div class="col-xs-6 col-sm-4 col-md-2 col-md-offset-1 space-top">
               <img src="../assets/tech/maven.svg" class="technologies">
               <span>Maven</span>
             </div>
@@ -74,10 +74,6 @@
               <span>Spring</span>
             </div>
             <div class="col-xs-6 col-sm-4 col-md-2 space-top">
-              <img src="../assets/tech/elastic.png" class="technologies elastic">
-              <span>ElasticSearch</span>
-            </div>
-            <div class="col-xs-6 col-sm-4 col-md-2 space-top">
               <img src="../assets/tech/kafka.png" class="technologies kafka">
               <span>Kafka</span>
             </div>
@@ -88,34 +84,34 @@
           </div>
 
           <div class="row">
-            <div class="col-sm-3  space-top">
-              <img src="../assets/tech/mysql.png" class="technologies">
-              <span>MySQL</span>
+            <div class="col-md-2 col-md-offset-2 space-top">
+              <img src="../assets/tech/elastic.png" class="technologies elastic">
+              <span>ElasticSearch</span>
             </div>
-            <div class="col-sm-3  space-top">
+            <div class="col-md-2  space-top">
               <img src="../assets/tech/oracle_sql.png" class="technologies">
               <span>Oracle SQL</span>
             </div>
-            <div class="col-sm-3 space-top">
+            <div class="col-md-2 space-top">
               <img src="../assets/tech/dynamodb.svg" class="technologies">
               <span>Dynamo DB</span>
             </div>
-            <div class="col-sm-3 space-top">
+            <div class="col-md-2 space-top">
               <img src="../assets/tech/oracle_coherence.jpg" class="technologies">
               <span>Oracle Coherence</span>
             </div>
           </div>
 
           <div class="row">
-            <div class="col-sm-4  space-top">
+            <div class="col-md-2 col-md-offset-3  space-top">
               <img src="../assets/tech/aws.svg" class="technologies">
               <span>AWS</span>
             </div>
-            <div class="col-sm-4  space-top">
+            <div class="col-md-2 space-top">
               <img src="../assets/tech/jenkins.png" class="technologies">
               <span>Jenkins</span>
             </div>
-            <div class="col-sm-4  space-top">
+            <div class="col-md-2 space-top">
               <img src="../assets/tech/gitlab.png" class="technologies">
               <span>GitLab</span>
             </div>
