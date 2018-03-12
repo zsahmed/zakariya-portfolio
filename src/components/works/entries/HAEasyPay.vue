@@ -3,7 +3,7 @@
     <div class="image-container col-md-6">
       <slider :auto="false">
         <slider-item>
-          <img src="../../../assets/projects/vizient.jpg">
+          <img src="../../../assets/projects/changeCreditCard.png">
         </slider-item>
         <slider-item>
           <img src="../../../assets/projects/vizient.jpg">
