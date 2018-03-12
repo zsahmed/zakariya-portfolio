@@ -4,21 +4,22 @@
       <slider class="slider"
         :auto="false"
         :control-btn="false"
-        height="545px">
+        height="545px"
+        width="680px">
 
-        <slider-item>
+        <slider-item class="slider-item">
           <img src="../../../assets/projects/easy-pay-pages/changeCreditCard.png">
         </slider-item>
 
-        <slider-item>
+        <slider-item class="slider-item"
           <img src="../../../assets/projects/easy-pay-pages/editCreditCard.png">
-        </slider-item>
+        </slider-item class="clider-item">
 
-        <slider-item>
+        <slider-item class="slider-item">
           <img src="../../../assets/projects/easy-pay-pages/newCc.png">
-        </slider-item>
+        </slider-item class="clider-item">
 
-        <slider-item>
+        <slider-item class="slider-item">
           <img src="../../../assets/projects/easy-pay-pages/editBillingAddress.png">
         </slider-item>
 
@@ -141,6 +142,12 @@ img {
 .slider {
   margin-top: 75px;
   margin-bottom: 75px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.slider-item {
+  text-align: center;
 }
 
 </style>
