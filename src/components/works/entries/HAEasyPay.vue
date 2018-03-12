@@ -1,13 +1,27 @@
 <template lang="html">
   <div class="col-container">
     <div class="image-container col-md-6">
-      <slider :auto="false">
+      <slider class="slider"
+        :auto="false"
+        :control-btn="false"
+        height="545px">
+
         <slider-item>
-          <img src="../../../assets/projects/changeCreditCard.png">
+          <img src="../../../assets/projects/easy-pay-pages/changeCreditCard.png">
         </slider-item>
+
         <slider-item>
-          <img src="../../../assets/projects/vizient.jpg">
+          <img src="../../../assets/projects/easy-pay-pages/editCreditCard.png">
         </slider-item>
+
+        <slider-item>
+          <img src="../../../assets/projects/easy-pay-pages/newCc.png">
+        </slider-item>
+
+        <slider-item>
+          <img src="../../../assets/projects/easy-pay-pages/editBillingAddress.png">
+        </slider-item>
+
       </slider>
     </div>
     <div class="col-md-6 content">
@@ -77,8 +91,8 @@ import { Slider, SliderItem } from 'vue-easy-slider'
 }
 
 .image-container {
-  /* background-image: url("../../../assets/projects/vizient.jpg");
-  background-size: cover; */
+  background-image: url("../../../assets/projects/easy-pay-pages/background.png");
+  background-size: cover;
   height: 100%;
   display: table-cell;
 }
@@ -117,6 +131,16 @@ span {
   display: block;
   margin-bottom: 15px;
   text-align: center;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.slider {
+  margin-top: 75px;
+  margin-bottom: 75px;
 }
 
 </style>
