@@ -11,7 +11,7 @@
           <router-link to="/blog" activeClass="active" tag="li"><a>Blog</a></router-link>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="/src/assets/resume.pdf">Resume</a></li>
+          <li><a href="https://s3.amazonaws.com/zakariya.solutions/resume.pdf">Resume</a></li>
         </ul>
       </div>
     </div>
