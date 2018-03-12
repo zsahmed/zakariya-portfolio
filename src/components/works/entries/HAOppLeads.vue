@@ -99,7 +99,7 @@ export default {
 }
 
 .source-code {
-
+  margin-top: 20px;
 }
 
 h1 {

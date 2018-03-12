@@ -54,7 +54,7 @@
           <span class="col-md-4 col-md-offset-4">Git</span>
         </div>
 
-        <span> Source Code Available Upon Request.</span>
+        <span class="source-code"> Source Code Available Upon Request.</span>
     </div>
 
     <div class="image-container col-md-6">
@@ -88,6 +88,10 @@ export default {
   padding-left: 25px;
   display: table-cell;
   height: 100%;
+}
+
+.source-code {
+  margin-top: 20px;
 }
 
 h1 {

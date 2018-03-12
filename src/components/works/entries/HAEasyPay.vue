@@ -28,8 +28,22 @@
           full SDLC of EasyPay was a great learning opportunity for me, and I was able to take a lot of lessons and apply them to future projects
           with HomeAdvisor.
         </p>
-        <span> Technologies Used: JavaScript, CSS (LESS), Jade, Jenkins, Git, Grunt</span>
-        <span> Source Code Available Upon Request.</span>
+
+        <h2>Technologies Used</h2>
+
+        <div class="row">
+          <span class="col-md-4">JavaScript</span>
+          <span class="col-md-4">CSS (LESS)</span>
+          <span class="col-md-4">Jade</span>
+        </div>
+
+        <div class="row">
+          <span class="col-md-4">Jenkins</span>
+          <span class="col-md-4">Git</span>
+          <span class="col-md-4">Grunt</span>
+        </div>
+
+        <span class="source-code"> Source Code Available Upon Request.</span>
     </div>
   </div>
 </template>
@@ -61,8 +75,23 @@ export default {
   height: 100%;
 }
 
+.source-code {
+  margin-top: 20px;
+}
+
 h1 {
   font-size: 32px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 35px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
 
 p {
@@ -72,6 +101,7 @@ p {
 span {
   display: block;
   margin-bottom: 15px;
+  text-align: center;
 }
 
 </style>
