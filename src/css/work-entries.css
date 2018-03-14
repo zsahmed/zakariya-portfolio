@@ -1,0 +1,66 @@
+.col-container {
+  display: table; /* Make the container element behave like a table */
+  width: 100%; /* Set full-width to expand the whole page */
+  height: 700px;
+}
+
+.image-container {
+  /* background-image: url("../../../assets/projects/homeadvisor.png");
+  background-size: cover; */
+  height: 100%;
+  display: table-cell;
+}
+
+.content {
+  background-color: white;
+  padding-left: 25px;
+  display: table-cell;
+  height: 100%;
+}
+
+.row {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.source-code {
+  margin-top: 20px;
+}
+
+.gray {
+  background-color: #fafafa;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+p {
+  width: 100%;
+}
+
+span {
+  display: block;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 270px;
+  margin-bottom: 270px;
+}

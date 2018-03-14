@@ -1,6 +1,6 @@
 <template lang="html">
-  <div class="col-container">
-    <div class="col-md-6 content">
+  <div class="col-container gray">
+    <div class="col-md-6 content gray">
         <h1>HomeAdvisor - SameDay Service</h1>
         <h3>April 2017 - August 2017</h3>
         <p>
@@ -69,63 +69,11 @@ export default {
 }
 </script>
 
-<style scoped>
+<style src="../../../css/work-entries.css" scoped>
 
 .col-container {
   display: table; /* Make the container element behave like a table */
   width: 100%; /* Set full-width to expand the whole page */
   height: 700px;
-  background-color: #fafafa;
 }
-
-.image-container {
-  background-size: cover;
-  height: 100%;
-  display: table-cell;
-}
-
-.content {
-  padding-left: 25px;
-  display: table-cell;
-  height: 100%;
-}
-
-.source-code {
-  margin-top: 20px;
-}
-
-h1 {
-  font-size: 32px;
-}
-
-h2 {
-  text-align: center;
-  margin-top: 35px;
-  margin-bottom: 20px;
-}
-
-h3 {
-  font-size: 20px;
-  margin-top: 5px;
-  margin-bottom: 20px;
-}
-
-p {
-  width: 100%;
-}
-
-span {
-  display: block;
-  margin-bottom: 15px;
-  text-align: center;
-}
-
-img {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  margin-top: 270px;
-  margin-bottom: 270px;
-}
-
 </style>
