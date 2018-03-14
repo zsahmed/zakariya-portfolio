@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="col-container">
-    <div class="image-container col-md-6">
+    <div class="image-container rm-image-container col-md-6">
     </div>
     <div class="col-md-6 content">
         <h1>Rick and Morty Android Soundboard</h1>
@@ -46,7 +46,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style src="../../../css/work-entries.css" scoped>
 
 .col-container {
   display: table; /* Make the container element behave like a table */

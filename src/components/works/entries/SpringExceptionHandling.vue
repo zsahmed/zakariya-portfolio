@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="col-container">
+  <div class="spring-col-container">
     <div class="col-md-6 content">
         <h1>Custom Spring Exception Handling</h1>
         <h3>October 2017</h3>
@@ -44,7 +44,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style src="../../../css/work-entries.css" scoped>
 
 .col-container {
   display: table; /* Make the container element behave like a table */

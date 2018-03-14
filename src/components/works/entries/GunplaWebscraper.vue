@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="col-container">
-    <div class="image-container col-md-6">
+    <div class="image-container gunpla-image-container col-md-6">
     </div>
     <div class="col-md-6 content">
         <h1>Gunpla Webscraper</h1>
@@ -57,55 +57,4 @@ export default {
 }
 </script>
 
-<style scoped>
-
-.col-container {
-  display: table; /* Make the container element behave like a table */
-    width: 100%; /* Set full-width to expand the whole page */
-}
-
-.image-container {
-  background-image: url("../../../assets/projects/dom.png");
-  background-size: cover;
-  height: 700px;
-  display: table-cell;
-}
-
-.content {
-  background-color: white;
-  padding-left: 25px;
-  display: table-cell;
-  height: 100%;
-}
-
-.button-row {
-  margin-top: 20px;
-  text-align: center;
-}
-
-h1 {
-  font-size: 32px;
-}
-
-h2 {
-  text-align: center;
-  margin-top: 35px;
-  margin-bottom: 20px;
-}
-
-h3 {
-  font-size: 20px;
-  margin-top: 5px;
-  margin-bottom: 20px;
-}
-
-p {
-  width: 100%;
-}
-
-span {
-  display: block;
-  margin-bottom: 15px;
-}
-
-</style>
+<style src="../../../css/work-entries.css" scoped></style>

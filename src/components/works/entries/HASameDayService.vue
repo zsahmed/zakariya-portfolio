@@ -31,27 +31,27 @@
 
         <h2>Technologies Used</h2>
 
-        <div class="row">
-          <span class="col-md-4">Spring Boot</span>
-          <span class="col-md-4">Maven</span>
-          <span class="col-md-4">Oracle SQL</span>
+        <div class="row tech-row">
+          <span class="tech-span-trips col-md-4">Spring Boot</span>
+          <span class="tech-span-trips col-md-4">Maven</span>
+          <span class="tech-span-trips col-md-4">Oracle SQL</span>
         </div>
 
-        <div class="row">
-          <span class="col-md-4">Jenkins</span>
-          <span class="col-md-4">Apache Kafka</span>
-          <span class="col-md-4">ElasticSearch</span>
+        <div class="row tech-row">
+          <span class="tech-span-trips col-md-4">Jenkins</span>
+          <span class="tech-span-trips col-md-4">Apache Kafka</span>
+          <span class="tech-span-trips col-md-4">ElasticSearch</span>
         </div>
 
-        <div class="row">
-          <span class="col-md-4">Coherence</span>
-          <span class="col-md-4">Groovy</span>
-          <span class="col-md-4">JIRA</span>
+        <div class="row tech-row">
+          <span class="tech-span-trips col-md-4">Coherence</span>
+          <span class="tech-span-trips col-md-4">Groovy</span>
+          <span class="tech-span-trips col-md-4">JIRA</span>
         </div>
 
-        <div class="row">
-          <span class="col-md-4">Confluence</span>
-          <span class="col-md-4 col-md-offset-4">Git</span>
+        <div class="row tech-row">
+          <span class="tech-span-trips col-md-4">Confluence</span>
+          <span class="tech-span-trips col-md-4 col-md-offset-4">Git</span>
         </div>
 
         <span class="source-code"> Source Code Available Upon Request.</span>
@@ -72,11 +72,4 @@ export default {
 }
 </script>
 
-<style src="../../../css/work-entries.css" scoped>
-
-.col-container {
-  display: table; /* Make the container element behave like a table */
-  width: 100%; /* Set full-width to expand the whole page */
-  height: 700px;
-}
-</style>
+<style src="../../../css/work-entries.css" scoped></style>

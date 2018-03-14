@@ -63,16 +63,16 @@
 
         <h2>Technologies Used</h2>
 
-        <div class="row">
-          <span class="col-md-4">JavaScript</span>
-          <span class="col-md-4">CSS (LESS)</span>
-          <span class="col-md-4">Jade</span>
+        <div class="row tech-row">
+          <span class="tech-span-trips col-md-4">JavaScript</span>
+          <span class="tech-span-trips col-md-4">CSS (LESS)</span>
+          <span class="tech-span-trips col-md-4">Jade</span>
         </div>
 
-        <div class="row">
-          <span class="col-md-4">Jenkins</span>
-          <span class="col-md-4">Git</span>
-          <span class="col-md-4">Grunt</span>
+        <div class="row tech-row">
+          <span class="tech-span-trips col-md-4">Jenkins</span>
+          <span class="tech-span-trips col-md-4">Git</span>
+          <span class="tech-span-trips col-md-4">Grunt</span>
         </div>
 
         <span class="source-code"> Source Code Available Upon Request.</span>

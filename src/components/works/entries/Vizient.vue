@@ -16,16 +16,16 @@
 
         <h2>Technologies Used</h2>
 
-        <div class="row">
-          <span class="col-md-4">AngularJS</span>
-          <span class="col-md-4">HTML</span>
-          <span class="col-md-4">CSS</span>
+        <div class="row tech-row">
+          <span class="tech-span-trips col-md-4">AngularJS</span>
+          <span class="tech-span-trips col-md-4">HTML</span>
+          <span class="tech-span-trips col-md-4">CSS</span>
         </div>
 
-        <div class="row">
-          <span class="col-md-4">Spring Boot</span>
-          <span class="col-md-4">Jenkins</span>
-          <span class="col-md-4">Kanban</span>
+        <div class="row tech-row">
+          <span class="tech-span-trips col-md-4">Spring Boot</span>
+          <span class="tech-span-trips col-md-4">Jenkins</span>
+          <span class="tech-span-trips col-md-4">Kanban</span>
         </div>
 
         <div class="button-row">

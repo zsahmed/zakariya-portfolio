@@ -10,14 +10,42 @@
   height: 500px;
 }
 
+.spring-col-container {
+  display: table; /* Make the container element behave like a table */
+  width: 100%; /* Set full-width to expand the whole page */
+  height: 600px;
+}
+
 .image-container {
   height: 100%;
   display: table-cell;
 }
 
+.ha-logo {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 270px;
+  margin-bottom: 270px;
+}
+
+.easy-pay-background {
+  background-image: url("../assets/projects/easy-pay-pages/background.png");
+}
+
 .vizient-image-container {
   background-image: url("../assets/projects/vizient.jpg");
   background-position: center;
+}
+
+.gunpla-image-container {
+  background-image: url("../assets/projects/dom.png");
+  background-size: cover;
+}
+
+.rm-image-container {
+  background-image: url("../assets/projects/rickAndMortySoundboard.png");
+  background-size: cover;
 }
 
 .content {
@@ -27,13 +55,16 @@
   height: 100%;
 }
 
-.row {
+.tech-row {
   width: 75%;
   margin: 0 auto;
 }
 
 .source-code {
   margin-top: 20px;
+  display: block;
+  margin-bottom: 15px;
+  text-align: center;
 }
 
 .gray {
@@ -54,18 +85,6 @@
 .slider-img {
   max-width: 100%;
   max-height: 100%;
-}
-
-.ha-logo {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  margin-top: 270px;
-  margin-bottom: 270px;
-}
-
-.easy-pay-background {
-  background-image: url("../assets/projects/easy-pay-pages/background.png");
 }
 
 .button-row {
@@ -93,7 +112,7 @@ p {
   width: 100%;
 }
 
-span {
+.tech-span-trips {
   display: block;
   margin-bottom: 15px;
   text-align: center;
