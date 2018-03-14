@@ -28,9 +28,9 @@
         <h2>Technologies Used</h2>
 
         <div class="row">
-          <span class="col-md-2 col-md-offset-3">Android Studio</span>
-          <span class="col-md-2 col-md-offset-3">Java</span>
-          <span class="col-md-2 col-md-offset-3">Git</span>
+          <span class="tech-span-dubs col-md-2 col-md-offset-3">Android Studio</span>
+          <span class="tech-span-dubs col-md-2 col-md-offset-3">Java</span>
+          <span class="tech-span-dubs col-md-2 col-md-offset-3">Git</span>
         </div>
 
         <div class="button-row">
@@ -46,56 +46,4 @@ export default {
 }
 </script>
 
-<style src="../../../css/work-entries.css" scoped>
-
-.col-container {
-  display: table; /* Make the container element behave like a table */
-  width: 100%; /* Set full-width to expand the whole page */
-  height: 700px;
-}
-
-.image-container {
-  background-image: url("../../../assets/projects/rickAndMortySoundboard.png");
-  background-size: cover;
-  height: 100%;
-  display: table-cell;
-}
-
-.content {
-  background-color: white;
-  padding-left: 25px;
-  display: table-cell;
-  height: 100%;
-}
-
-.button-row {
-  margin-top: 20px;
-  text-align: center;
-}
-
-h1 {
-  font-size: 32px;
-}
-
-h2 {
-  text-align: center;
-  margin-top: 35px;
-  margin-bottom: 20px;
-}
-
-h3 {
-  font-size: 20px;
-  margin-top: 5px;
-  margin-bottom: 20px;
-}
-
-p {
-  width: 100%;
-}
-
-span {
-  display: block;
-  margin-bottom: 15px;
-}
-
-</style>
+<style src="../../../css/work-entries.css" scoped></style>

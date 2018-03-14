@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="col-container">
+  <div class="tony-romo-col-container">
     <div class="col-md-6 content">
         <h1>Tony Romo's Rushed Unlicensed Adventure</h1>
         <h3>November 2015</h3>
@@ -31,7 +31,7 @@
           </div>
 
     </div>
-    <div class="image-container col-md-6"></div>
+    <div class="image-container tony-romo-image-container col-md-6"></div>
   </div>
 </template>
 
@@ -40,7 +40,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style src="../../../css/work-entries.css" scoped>
 
 .col-container {
   display: table; /* Make the container element behave like a table */

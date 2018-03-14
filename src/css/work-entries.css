@@ -2,6 +2,8 @@
   display: table; /* Make the container element behave like a table */
   width: 100%; /* Set full-width to expand the whole page */
   height: 700px;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .vizient-col-container {
@@ -14,6 +16,13 @@
   display: table; /* Make the container element behave like a table */
   width: 100%; /* Set full-width to expand the whole page */
   height: 600px;
+}
+
+.tony-romo-col-container {
+  display: table; /* Make the container element behave like a table */
+  width: 100%; /* Set full-width to expand the whole page */
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .image-container {
@@ -46,6 +55,12 @@
 .rm-image-container {
   background-image: url("../assets/projects/rickAndMortySoundboard.png");
   background-size: cover;
+}
+
+.tony-romo-image-container {
+  background-image: url("../assets/projects/tonyRomo.png");
+  background-size: cover;
+  height: 500px;
 }
 
 .content {
@@ -116,4 +131,9 @@ p {
   display: block;
   margin-bottom: 15px;
   text-align: center;
+}
+
+.tech-span-dubs {
+  display: block;
+  margin-bottom: 15px;
 }
