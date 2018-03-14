@@ -31,7 +31,7 @@
         <div class="button-row">
           <a class="btn btn-success" href="https://github.com/zsahmed/spring-exception-handling">View Code</a>
         </div>
-        
+
     </div>
     <div class="image-container col-md-6">
       <img src="../../../assets/projects/spring.png">
@@ -77,6 +77,7 @@ h1 {
 h2 {
   text-align: center;
   margin-top: 35px;
+  margin-bottom: 20px;
 }
 
 h3 {
