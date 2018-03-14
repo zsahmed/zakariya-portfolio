@@ -33,7 +33,10 @@
           <span class="col-md-2 col-md-offset-3">Git</span>
         </div>
 
-        <a class="btn btn-success" href="https://github.com/zsahmed/zsahmed.github.io">View Code</a>
+        <div class="button-row">
+          <a class="btn btn-success" href="https://github.com/zsahmed/zsahmed.github.io">View Code</a>
+        </div>
+
     </div>
   </div>
 </template>
@@ -63,6 +66,11 @@ export default {
   padding-left: 25px;
   display: table-cell;
   height: 100%;
+}
+
+.button-row {
+  margin-top: 20px;
+  text-align: center;
 }
 
 h1 {

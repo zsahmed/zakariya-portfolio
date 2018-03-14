@@ -25,8 +25,10 @@
             <span class="col-xs-2 col-md-offset-3">Git</span>
           </div>
 
-          <a class="btn btn-success" href="https://github.com/zsahmed/zsahmed.github.io">View Code</a>
-          <a class="btn btn-danger" href="http://zsahmed.github.io/">Play!</a>
+          <div class="button-row">
+            <a class="btn btn-success" href="https://github.com/zsahmed/zsahmed.github.io">View Code</a>
+            <a class="btn btn-danger" href="http://zsahmed.github.io/">Play!</a>
+          </div>
 
     </div>
     <div class="image-container col-md-6"></div>
@@ -59,6 +61,11 @@ export default {
   padding-left: 15px;
   display: table-cell;
   height: 100%;
+}
+
+.button-row {
+  margin-top: 20px;
+  text-align: center;
 }
 
 h1 {
