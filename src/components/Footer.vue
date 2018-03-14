@@ -6,9 +6,13 @@
           <h6>zakariya.ahmed34@gmail.com</h6>
       </div>
       <div class="col-md-4 middle">
-          <i class="fab fa-linkedin"></i>
+          <a href="https://www.linkedin.com/in/zakariya-ahmed-56975986/">
+            <i class="fab fa-linkedin"></i>
+          </a>
           <hr>
-          <i class="fab fa-github"></i>
+          <a href="https://github.com/zsahmed">
+            <i class="fab fa-github"></i>
+          </a>
       </div>
       <div class="col-md-4 right">
           <i class="fas fa-phone"></i>
