@@ -16,13 +16,13 @@
           <h2>Technologies Used</h2>
 
           <div class="row">
-            <span class="col-md-2 col-md-offset-3">JavaScript</span>
-            <span class="col-md-2 col-md-offset-3">PhaserJS</span>
+            <span class="tech-span-dubs col-md-2 col-md-offset-3">JavaScript</span>
+            <span class="tech-span-dubs col-md-2 col-md-offset-3">PhaserJS</span>
           </div>
 
           <div class="row">
-            <span class="col-xs-2 col-md-offset-3">HTML</span>
-            <span class="col-xs-2 col-md-offset-3">Git</span>
+            <span class="tech-span-dubs col-xs-2 col-md-offset-3">HTML</span>
+            <span class="tech-span-dubs col-xs-2 col-md-offset-3">Git</span>
           </div>
 
           <div class="button-row">
