@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="col-container">
+  <div class="vizient-col-container">
     <div class="col-md-6 content">
         <h1>Vizient Savings Actualizer Support</h1>
         <h3>August 2016 - November 2016</h3>
@@ -32,7 +32,7 @@
           <a class="btn btn-success" :href="savingsActualizerRelease">Read About Savings Actualizer</a>
         </div>
     </div>
-    <div class="image-container col-md-6">
+    <div class="image-container vizient-image-container col-md-6">
     </div>
   </div>
 </template>
@@ -47,7 +47,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style src="../../../css/work-entries.css" scoped>
 
 .col-container {
   display: table; /* Make the container element behave like a table */
@@ -72,11 +72,6 @@ export default {
 .row {
   width: 75%;
   margin: 0 auto;
-}
-
-.button-row {
-  margin-top: 20px;
-  text-align: center;
 }
 
 h1 {

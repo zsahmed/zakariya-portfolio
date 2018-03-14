@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="col-container">
-    <div class="image-container col-md-6">
+    <div class="image-container easy-pay-background col-md-6">
       <slider class="slider"
         :auto="false"
         :control-btn="false"
@@ -8,19 +8,27 @@
         width="680px">
 
         <slider-item class="slider-item">
-          <img src="../../../assets/projects/easy-pay-pages/changeCreditCard.png">
+          <img
+            class="slider-img"
+            src="../../../assets/projects/easy-pay-pages/changeCreditCard.png">
         </slider-item>
 
-        <slider-item class="slider-item"
-          <img src="../../../assets/projects/easy-pay-pages/editCreditCard.png">
+        <slider-item class="slider-item">
+          <img
+            class="slider-img"
+            src="../../../assets/projects/easy-pay-pages/editCreditCard.png">
         </slider-item class="clider-item">
 
         <slider-item class="slider-item">
-          <img src="../../../assets/projects/easy-pay-pages/newCc.png">
+          <img
+            class="slider-img"
+            src="../../../assets/projects/easy-pay-pages/newCc.png">
         </slider-item class="clider-item">
 
         <slider-item class="slider-item">
-          <img src="../../../assets/projects/easy-pay-pages/editBillingAddress.png">
+          <img
+            class="slider-img"
+            src="../../../assets/projects/easy-pay-pages/editBillingAddress.png">
         </slider-item>
 
       </slider>
@@ -73,82 +81,14 @@
 </template>
 
 <script>
-import { Slider, SliderItem } from 'vue-easy-slider'
+  import { Slider, SliderItem } from 'vue-easy-slider';
 
   export default {
     components: {
-    Slider,
-    SliderItem
-  }
+      Slider,
+      SliderItem
+    }
   }
 </script>
 
-<style scoped>
-
-.col-container {
-  display: table; /* Make the container element behave like a table */
-  width: 100%; /* Set full-width to expand the whole page */
-  height: 700px;
-}
-
-.image-container {
-  background-image: url("../../../assets/projects/easy-pay-pages/background.png");
-  background-size: cover;
-  height: 100%;
-  display: table-cell;
-}
-
-.content {
-  background-color: white;
-  padding-left: 25px;
-  display: table-cell;
-  height: 100%;
-}
-
-.source-code {
-  margin-top: 20px;
-}
-
-h1 {
-  font-size: 32px;
-}
-
-h2 {
-  text-align: center;
-  margin-top: 35px;
-  margin-bottom: 20px;
-}
-
-h3 {
-  font-size: 20px;
-  margin-top: 5px;
-  margin-bottom: 20px;
-}
-
-p {
-  width: 100%;
-}
-
-span {
-  display: block;
-  margin-bottom: 15px;
-  text-align: center;
-}
-
-img {
-  max-width: 100%;
-  max-height: 100%;
-}
-
-.slider {
-  margin-top: 75px;
-  margin-bottom: 75px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.slider-item {
-  text-align: center;
-}
-
-</style>
+<style src="../../../css/work-entries.css" scoped></style>

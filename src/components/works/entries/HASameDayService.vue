@@ -58,7 +58,10 @@
     </div>
 
     <div class="image-container col-md-6">
-        <img src="../../../assets/projects/homeadvisor.png"></img>
+        <img
+          class="ha-logo"
+          src="../../../assets/projects/homeadvisor.png">
+        </img>
     </div>
 
   </div>

@@ -1,7 +1,10 @@
 <template lang="html">
   <div class="col-container">
     <div class="image-container col-md-6">
-        <img src="../../../assets/projects/homeadvisor.png"></img>
+        <img
+          class="ha-logo"
+          src="../../../assets/projects/homeadvisor.png">
+        </img>
     </div>
     <div class="col-md-6 content">
         <h1>HomeAdvisor - Opportunity Leads</h1>
