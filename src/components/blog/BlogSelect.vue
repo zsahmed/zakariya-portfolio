@@ -21,6 +21,11 @@
   export default {
     data() {
       return {
+        lifeAfterCollegeInfo: {
+          title: 'Surviving Life After College',
+          date: 'March 16, 2018',
+          imageLink: require('../../assets/blog/lifeAfterCollegeHeader.png')
+        },
         personalGrowthInfo: {
           title: 'Personal Growth',
           date: 'November 15, 2016',
