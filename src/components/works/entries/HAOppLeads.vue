@@ -17,24 +17,24 @@
         </p>
         <p>
           This is my favorite project to date. We had an aggressive deadline, and this was a high impact project for the client now that they are a
-          public company. My team got to build the micro-service that would handle this experience from the ground up. The Opportunity Leads API would
-          be responsible for creating and managing the state of the service requests, allowing Service Providers and Consumers to opt-in to the request,
-          and it would need to manage the eligibility of Service Providers for this experience (similar to the work done on SameDay Service).
+          publicly traded company. My team got to build and own the micro-service that would handle this experience from the ground up. The Opportunity
+          Leads API would be responsible for creating and managing the state of the service requests, allowing Service Providers and Consumers
+          to opt-in to said requests, and manage the eligibility of Service Providers for this experience (similar to the work done on SameDay Service).
         </p>
         <p>
-          I touched a lot of different technologies on this project. I created RESTful API endpoints for the micro-service, implemented JDBC to allow
-          our service to communicate with HomeAdvisor's Oracle SQL database. We also implemented a Coherence caching layer to improve performance when
+          I touched a lot of different technologies on this project. I created RESTful API endpoints for the micro-service and implemented JDBC to allow
+          our service to communicate with HomeAdvisor's Oracle SQL database. We implemented a Coherence caching layer to improve performance when
           calls to the database were required. I was also responsible for updating the ElasticSearch index mappings to account for this new type of
           experience, so this project required some scripting as well.
         </p>
         <p>
-          This project was also a great growing experience for me because my Project Director gave me more leadership opportunities. Since I have been
-          working with in my client's domain for over a year now, I was also responsible for code reviewing the festures built by our junior developes in
-          order to make sure their code adhered to HomeAdvisor's best-practices. This was on top of my own development responsibilities and assiting QA
+          Opportunity Leads was great growing experience as well because my Project Director gave me more leadership opportunities. Since I have been
+          working with my client's domain for over a year now, I was responsible for code reviewing the features built by our junior developes in
+          order to make sure our code adhered to HomeAdvisor's best-practices. This was on top of my own development responsibilities and assiting QA
           with end to end testing.
         </p>
         <p>
-          Opportunity Leads was an extremly challanging, yet rewarding project. This project pushed me to my limits and made me grow and learn at a rate I
+          Overall, this was an extremly challanging, yet rewarding project. Opportunity Leads pushed me to my limits and made me grow and learn at a rate I
           didn't think was possible. The team is still working on continuous improvements to the product, but I can happily say it is currently out in
           production generating revenue for the client!
         </p>
