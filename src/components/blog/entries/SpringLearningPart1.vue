@@ -39,37 +39,4 @@
   }
 </script>
 
-<style lang="css" src="../../../css/blog-entries.css" scoped>
-
-.landingPage {
-  background-image: url("../../../assets/blog/springLearningPart1Header.png");
-  background-size: cover;
-  width: 100%;
-  height: 500px;
-  margin-bottom: 30px;
-}
-
-.container {
-  width: 45%;
-}
-
-.header-content {
-  display: inline-block;
-  width: 100%;
-  height: 150px;
-}
-
-.body-content {
-  margin-bottom: 50px;
-}
-
-h3 {
-  margin-top: 24px;
-}
-
-p {
-  font-size: 17px;
-  line-height: 1.8;
-}
-
-</style>
+<style lang="css" src="../../../css/blog-entries.css" scoped></style>
