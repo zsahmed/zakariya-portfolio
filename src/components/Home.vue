@@ -1,9 +1,9 @@
 <template lang="html">
   <div>
     <div class="landingPage">
-      <div class="landingPageText">
-        <h3>Full Stack Developer. Technology Consultant.</h3>
-        <h3>Gundam Enthusiast.</h3>
+      <div class="landing-page-text-container">
+        <span class="landing-page-text">Full Stack Developer. Technology Consultant. Gundam Enthusiast.</span>
+        <!-- <span class="landing-page-text"></span> -->
       </div>
     </div>
     <hr>
@@ -137,17 +137,15 @@ export default {
     margin: 0px;
   }
 
-  .landingPageText {
+  .landing-page-text-container {
     position: absolute;
     color: white;
     margin-top: 100px;
     margin-left: 75px;
     background: rgba(0,0,0,0.5);
-    height: 75px;
-    width: 500px;
-  }
-
-  .home-content {
+    border-bottom: 4px solid #a3232a;
+    height: 80px;
+    width: 450px;
   }
 
   .about-me {
@@ -160,7 +158,7 @@ export default {
   }
 
   .description {
-    text-align: center;
+    line-height:1.6;
     margin: 25px 300px 0px 300px;
     font-family: 'Muli';
   }
@@ -190,14 +188,10 @@ export default {
     font-size: 16px;
   }
 
-  h3 {
+  .landing-page-text {
     font-size: 20px;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-bottom: -10px;
-    position: center;
     color: white;
-    opacity: 1;
+    text-align: left;
   }
 
   h1 {
