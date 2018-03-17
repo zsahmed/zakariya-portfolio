@@ -1,16 +1,16 @@
 <template>
   <div class="container">
     <ul class="list-group">
-              <router-link
-                            to="/blog/spring-learning-part-1"
-                            style="cursor: pointer">
-                            <app-blog-card :info="springLearningPart1Info"></app-blog-card>
-                </router-link>
-                <router-link
-                             to="/blog/personal-growth"
-                             style="cursor: pointer">
-                             <app-blog-card :info="personalGrowthInfo"></app-blog-card>
-                 </router-link>
+      <router-link
+                    to="/blog/spring-learning-part-1"
+                    style="cursor: pointer">
+                    <app-blog-card :info="springLearningPart1Info"></app-blog-card>
+      </router-link>
+      <router-link
+                     to="/blog/personal-growth"
+                     style="cursor: pointer">
+                     <app-blog-card :info="personalGrowthInfo"></app-blog-card>
+        </router-link>
     </ul>
   </div>
 </template>
