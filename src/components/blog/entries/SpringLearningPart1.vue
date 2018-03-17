@@ -1,20 +1,27 @@
 <template lang="html">
-  <div>
-    <div class="landingPage"></div>
+  <div class="entry-container">
+    <div class="landing-page spring-learning-1-background"></div>
+    <hr class="landingPage-hr">
     <div class="container">
 
       <div class="header-content">
-        <h1 class="col-md-8">Spring Learning: Part I</h1>
-        <h3 class="col-md-4">April 17, 2017</h3>
+        <div class="row">
+          <h1 class="col-md-8">Spring Learning: Part I</h1>
+          <h3 class="col-md-4 date">April 17, 2017</h3>
+        </div>
       </div>
 
       <hr>
 
       <div class="body-content">
-        <p v-for="paragraph in paragraphs"> {{ paragraph.content }}</p>
+        <p
+          v-for="paragraph in paragraphs"
+          class="blog-content-p">
+          {{ paragraph.content }}
+        </p>
       </div>
 
-    </div>
+      </div>
   </div>
 </template>
 
@@ -32,7 +39,7 @@
   }
 </script>
 
-<style lang="css" scoped>
+<style lang="css" src="../../../css/blog-entries.css" scoped>
 
 .landingPage {
   background-image: url("../../../assets/blog/springLearningPart1Header.png");

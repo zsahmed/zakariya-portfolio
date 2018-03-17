@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="entry-container">
-    <div class="landingPage"></div>
+    <div class="landing-page personal-growth-background"></div>
     <hr class="landingPage-hr">
     <div class="container">
 
@@ -13,7 +13,7 @@
 
         <p class="author-note">
           <span class="author-note-span">Author's Note:</span>
-          This was my first blog for Credera. The original post can be found <a :href="blogLink">here</a>. 
+          This was my first blog for Credera. The original post can be found <a :href="blogLink">here</a>.
           I'm happy to say I did achieve my goal of becoming AWS certified! Next up, Solutions Architect.
         </p>
       </div>
@@ -52,7 +52,7 @@
   }
 </script>
 
-<style lang="css" scoped>
+<style lang="css" src="../../../css/blog-entries.css" scoped>
 
 .landingPage {
   background-image: url("../../../assets/blog/personalGrowthHeader.png");
