@@ -5,6 +5,7 @@ import Works from './components/works/Works.vue';
 import BlogSelect from './components/blog/BlogSelect.vue';
 import PersonalGrowth from './components/blog/entries/PersonalGrowth.vue';
 import SpringLearningPart1 from './components/blog/entries/SpringLearningPart1.vue';
+import LifeAfterCollege from './components/blog/entries/LifeAfterCollege.vue';
 
 
 export const routes = [
@@ -16,5 +17,6 @@ export const routes = [
   ] },
 
   { path: '/blog/personal-growth', component: PersonalGrowth },
-  { path: '/blog/spring-learning-part-1', component: SpringLearningPart1 }
+  { path: '/blog/spring-learning-part-1', component: SpringLearningPart1 },
+  { path: 'blog/surviving-life-after-college', component: LifeAfterCollege}
 ];
