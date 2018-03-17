@@ -46,12 +46,18 @@
   width: 45%;
 }
 
+.content-section-header {
+  font-weight: bold;
+  font-size: 20px !important;
+  margin-top: 45px;
+  margin-bottom: 0px;
+}
+
 .quote {
   margin: 25px -20px 25px -25px;
   padding: 5px 20px 5px 20px;
   border-left: 5px solid #34495e;
   background-color: #DCDCDC;
-
 }
 
 .header-content {

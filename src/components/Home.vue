@@ -24,7 +24,7 @@
           most of my Sundays watching football from noon to evening.
         </p>
         <p class="description">
-          That's my elevator pitch! If you have time I'd love for you to check out some of my previous works or a blog post.
+          That's my elevator pitch! If you have time I'd love for you to check out some of my projects or a blog post.
           Do you have a technology challange you're facing? Have any questions for a technology consultant? Please feel free to reach out to me with
           any questions, comments, or concerns, I would love to help!
         </p>

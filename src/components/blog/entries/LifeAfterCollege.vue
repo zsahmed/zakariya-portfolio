@@ -13,8 +13,8 @@
 
         <p class="author-note">
           <span class="author-note-span">Author's Note:</span>
-          This was my first blog for Credera. The original post can be found <a :href="blogLink">here</a>.
-          I'm happy to say I did achieve my goal of becoming AWS certified! Next up, Solutions Architect.
+          This is a post I created for marketing's "My Credera" initiative. I wanted to speak to the challanges and opportunities I faced
+          while transitioning from student to professional consultant. The original article can be found <a :href="blogLink">here</a>.
         </p>
       </div>
 
@@ -24,7 +24,7 @@
         <p
           v-for="paragraph in paragraphs"
           class="blog-content-p"
-          :class="{quote: paragraph.quote}">
+          :class="{quote: paragraph.quote, 'content-section-header': paragraph.isHeader}">
           {{ paragraph.content }}
         </p>
       </div>
@@ -40,7 +40,7 @@
     },
     data() {
       return {
-        blogLink: 'https://www.credera.com/blog/management-consulting/personal-growth-is-essential/'
+        blogLink: 'https://www.credera.com/blog/technology-solutions/life-after-college-4-technology-consultant-survival-tips/'
       }
     },
     computed: {
