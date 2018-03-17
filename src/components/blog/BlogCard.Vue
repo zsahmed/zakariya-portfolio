@@ -1,7 +1,10 @@
 <template lang="html">
   <div class="blog-card">
     <img :src="info.imageLink" class="blog-card-img">
-    <p class="blog-card-p">{{ info.title }}</p>
+    <div class="row">
+      <span class="col-md-6">{{ info.title }}</span>
+      <span class="col-md-6 date">{{ info.date }}</span>
+    </div>
   </div>
 </template>
 
@@ -20,7 +23,6 @@ export default {
   box-shadow: 2px 4px #8888;
 }
 
-
 .blog-card-img {
   max-width: 100%;
   max-height: 100%;
@@ -33,7 +35,7 @@ export default {
   border-bottom: 2px solid #34495e;
 }
 
-.blog-card-p {
+.row {
   font-size: 25px;
   padding: 10px 15px 10px 15px;
   font-family: 'Muli';
@@ -41,5 +43,12 @@ export default {
   border-bottom: 2px solid #34495e;
   border-left: 2px solid #34495e;
   border-right: 2px solid #34495e;
+  margin: 0px;
+}
+
+.date {
+  text-align: right;
+  font-size: 20px;
+  padding-top: 4px;
 }
 </style>

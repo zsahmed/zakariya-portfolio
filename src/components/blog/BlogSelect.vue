@@ -23,10 +23,12 @@
       return {
         personalGrowthInfo: {
           title: 'Personal Growth',
+          date: 'November 15, 2016',
           imageLink: require('../../assets/blog/personalGrowthHeader.png')
         },
         springLearningPart1Info: {
           title:'Spring Learning: Part I',
+          date:'April 17, 2017',
           imageLink: require('../../assets/blog/springLearningPart1Header.png')
         }
       }
