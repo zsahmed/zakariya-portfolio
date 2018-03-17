@@ -15,6 +15,7 @@ export default [
       },
       {
         paragraphId: 3,
+        quote: true,
         content:
           '“One of the hardest parts about making resolutions is keeping them. In fact, most resolutions are abandoned by February… ' +
           'But that’s ok. Because it’s not about being perfect, it’s about trying.”'

@@ -162,13 +162,4 @@ export default {
   .toggle-container-hr {
     margin-bottom: 0;
   }
-
-  /* hr {
-
-    #eaeaea
-  } */
-
-  body {
-
-  }
 </style>
