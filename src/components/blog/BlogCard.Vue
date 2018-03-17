@@ -15,9 +15,9 @@ export default {
 
 .blog-card {
   width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 25px auto 25px auto;
   color: #34495e;
+  box-shadow: 2px 4px #8888;
 }
 
 
@@ -27,19 +27,17 @@ export default {
   margin-left: auto;
 	margin-right: auto;
 	display: block;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
   border-top: 1px solid #34495e;
   border-left: 1px solid #34495e;
   border-right: 1px solid #34495e;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #34495e;
 }
 
 .blog-card-p {
   font-size: 25px;
   padding: 10px 15px 10px 15px;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
+  font-family: 'Muli';
+  background-color: #fafafa;
   border-bottom: 2px solid #34495e;
   border-left: 2px solid #34495e;
   border-right: 2px solid #34495e;
