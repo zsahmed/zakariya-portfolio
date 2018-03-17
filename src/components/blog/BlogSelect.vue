@@ -2,6 +2,11 @@
   <div class="container">
     <ul class="list-group">
       <router-link
+                    to="/blog/surviving-life-after-college"
+                    style="cursor: pointer">
+                    <app-blog-card :info="lifeAfterCollegeInfo"></app-blog-card>
+      </router-link>
+      <router-link
                     to="/blog/spring-learning-part-1"
                     style="cursor: pointer">
                     <app-blog-card :info="springLearningPart1Info"></app-blog-card>

@@ -18,5 +18,5 @@ export const routes = [
 
   { path: '/blog/personal-growth', component: PersonalGrowth },
   { path: '/blog/spring-learning-part-1', component: SpringLearningPart1 },
-  { path: 'blog/surviving-life-after-college', component: LifeAfterCollege}
+  { path: '/blog/surviving-life-after-college', component: LifeAfterCollege }
 ];

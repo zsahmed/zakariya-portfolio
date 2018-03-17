@@ -12,6 +12,10 @@
   background-image: url("../assets/blog/springLearningPart1Header.png")
 }
 
+.life-after-college-background {
+  background-image: url("../assets/blog/lifeAfterCollegeHeader.png")
+}
+
 .landingPage-hr {
   margin: 0;
   border-top: 5px solid #34495e;
