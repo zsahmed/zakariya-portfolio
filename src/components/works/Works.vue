@@ -27,7 +27,7 @@
       <hr class="toggle-container-hr">
     </div>
 
-    <!-- <transition-group  name="slide" mode="out-in">
+    <transition-group  name="slide" mode="out-in">
 
         <app-opp-leads-project v-if="professional" key="OL"></app-opp-leads-project>
         <app-same-day-service-project v-if="professional" key="SDS"></app-same-day-service-project>
@@ -39,9 +39,9 @@
         <app-rick-and-morty-project v-if="personal" key="rm"></app-rick-and-morty-project>
         <app-romo-project v-if="personal" key="romo"></app-romo-project>
 
-    </transition-group> -->
+    </transition-group>
 
-    <transition  name="slide" mode="out-in">
+    <!-- <transition  name="slide" mode="out-in">
 
       <div v-if="professional" key="OL">
         <app-opp-leads-project key="OL"></app-opp-leads-project>
@@ -57,7 +57,7 @@
         <app-romo-project key="romo"></app-romo-project>
       </div>
 
-    </transition>
+    </transition> -->
 
   </div>
 </template>
@@ -199,6 +199,7 @@ export default {
     animation: slide-out 1s ease-out forwards;
     transition: opacity 0.5s;
     opacity: 0;
+    position: absolute;
     z-index: -1;
   }
 
