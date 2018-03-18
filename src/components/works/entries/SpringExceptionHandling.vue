@@ -34,7 +34,7 @@
 
     </div>
     <div class="image-container col-md-6">
-      <img src="../../../assets/projects/spring.png">
+      <img src="../../../assets/projects/spring.png" class="spring-logo">
     </div>
   </div>
 </template>
