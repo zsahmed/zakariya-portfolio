@@ -41,24 +41,6 @@
 
     </transition-group>
 
-    <!-- <transition  name="slide" mode="out-in">
-
-      <div v-if="professional" key="OL">
-        <app-opp-leads-project key="OL"></app-opp-leads-project>
-        <app-same-day-service-project key="SDS"></app-same-day-service-project>
-        <app-easy-pay-project key="easyPay"></app-easy-pay-project>
-        <app-vizient-project key="vizient"></app-vizient-project>
-      </div>
-
-      <div v-else key="personal">
-        <app-gunpla-webscraper-project key="gunpla"></app-gunpla-webscraper-project>
-        <app-spring-exception-project key="spring"></app-spring-exception-project>
-        <app-rick-and-morty-project key="rm"></app-rick-and-morty-project>
-        <app-romo-project key="romo"></app-romo-project>
-      </div>
-
-    </transition> -->
-
   </div>
 </template>
 
