@@ -27,19 +27,37 @@
       <hr class="toggle-container-hr">
     </div>
 
-    <template v-if="professional">
-      <app-opp-leads-project></app-opp-leads-project>
-      <app-same-day-service-project></app-same-day-service-project>
-      <app-easy-pay-project></app-easy-pay-project>
-      <app-vizient-project></app-vizient-project>
-    </template>
+    <!-- <transition-group  name="slide" mode="out-in">
 
-    <template v-if="personal">
-      <app-gunpla-webscraper-project></app-gunpla-webscraper-project>
-      <app-spring-exception-project></app-spring-exception-project>
-      <app-rick-and-morty-project></app-rick-and-morty-project>
-      <app-romo-project></app-romo-project>
-    </template>
+        <app-opp-leads-project v-if="professional" key="OL"></app-opp-leads-project>
+        <app-same-day-service-project v-if="professional" key="SDS"></app-same-day-service-project>
+        <app-easy-pay-project v-if="professional" key="easyPay"></app-easy-pay-project>
+        <app-vizient-project v-if="professional" key="vizient"></app-vizient-project>
+
+        <app-gunpla-webscraper-project v-if="personal" key="gunpla"></app-gunpla-webscraper-project>
+        <app-spring-exception-project v-if="personal" key="spring"></app-spring-exception-project>
+        <app-rick-and-morty-project v-if="personal" key="rm"></app-rick-and-morty-project>
+        <app-romo-project v-if="personal" key="romo"></app-romo-project>
+
+    </transition-group> -->
+
+    <transition  name="slide" mode="out-in">
+
+      <div v-if="professional" key="OL">
+        <app-opp-leads-project key="OL"></app-opp-leads-project>
+        <app-same-day-service-project key="SDS"></app-same-day-service-project>
+        <app-easy-pay-project key="easyPay"></app-easy-pay-project>
+        <app-vizient-project key="vizient"></app-vizient-project>
+      </div>
+
+      <div v-else key="personal">
+        <app-gunpla-webscraper-project key="gunpla"></app-gunpla-webscraper-project>
+        <app-spring-exception-project key="spring"></app-spring-exception-project>
+        <app-rick-and-morty-project key="rm"></app-rick-and-morty-project>
+        <app-romo-project key="romo"></app-romo-project>
+      </div>
+
+    </transition>
 
   </div>
 </template>
@@ -120,6 +138,7 @@ export default {
 
   .toggle-container {
     background-color: #fafafa;
+    z-index: 1;
   }
 
   .row {
@@ -161,5 +180,47 @@ export default {
 
   .toggle-container-hr {
     margin-bottom: 0;
+  }
+
+  .slide-enter {
+    opacity: 0;
+  }
+
+  .slide-enter-active {
+    animation: slide-in 1s ease-out forwards;
+    transition: opacity 0.5s;
+  }
+
+  .slide-leave {
+
+  }
+
+  .slide-leave-active {
+    animation: slide-out 1s ease-out forwards;
+    transition: opacity 0.5s;
+    opacity: 0;
+    z-index: -1;
+  }
+
+  .slide-move {
+    transition: transform 1s;
+  }
+
+  @keyframes slide-in {
+    from {
+      transform: translateY(-100px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slide-out {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-100px);
+    }
   }
 </style>
