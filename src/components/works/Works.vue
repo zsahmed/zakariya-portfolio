@@ -200,7 +200,6 @@ export default {
     transition: opacity 0.5s;
     opacity: 0;
     position: absolute;
-    z-index: -1;
   }
 
   .slide-move {
