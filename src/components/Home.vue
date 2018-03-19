@@ -133,7 +133,7 @@ export default {
     background-image: url("../assets/landingPage.png");
     background-size: cover;
     width: 100%;
-    height: 600px;
+    height: 550px;
     margin: 0px;
   }
 
@@ -202,9 +202,21 @@ export default {
     font-family: 'Muli';
   }
 
+  @keyframes line_animation {
+     from {
+         width: 0%;
+     }
+     to {
+         width:100%;
+     }
+   }
+
   hr {
-    margin: 0;
+    margin: 0 auto 0 auto;
     border-top: 5px solid #34495e;
+    animation-name: line_animation;
+    animation-duration: 1s;
+    animation-timing-function: linear;
   }
 
   body {

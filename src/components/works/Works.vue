@@ -40,25 +40,7 @@
         <app-romo-project v-if="personal" key="romo"></app-romo-project>
 
     </transition-group>
-
-    <!-- <transition  name="slide" mode="out-in">
-
-      <div v-if="professional" key="OL">
-        <app-opp-leads-project key="OL"></app-opp-leads-project>
-        <app-same-day-service-project key="SDS"></app-same-day-service-project>
-        <app-easy-pay-project key="easyPay"></app-easy-pay-project>
-        <app-vizient-project key="vizient"></app-vizient-project>
-      </div>
-
-      <div v-else key="personal">
-        <app-gunpla-webscraper-project key="gunpla"></app-gunpla-webscraper-project>
-        <app-spring-exception-project key="spring"></app-spring-exception-project>
-        <app-rick-and-morty-project key="rm"></app-rick-and-morty-project>
-        <app-romo-project key="romo"></app-romo-project>
-      </div>
-
-    </transition> -->
-
+    
   </div>
 </template>
 
@@ -133,7 +115,7 @@ export default {
     background-image: url("../../assets/projects/worksLandingPage.png");
     background-size: cover;
     width: 100%;
-    height: 500px;
+    height: 550px;
   }
 
   .toggle-container {
@@ -174,9 +156,21 @@ export default {
   }
 
   .landingPage-hr {
-    margin: 0;
+    margin: 0 auto 0 auto;
     border-top: 5px solid #34495e;
+    animation-name: line_animation;
+    animation-duration: 1s;
+    animation-timing-function: linear;
   }
+
+  @keyframes line_animation {
+     from {
+         width: 0%;
+     }
+     to {
+         width:100%;
+     }
+   }
 
   .toggle-container-hr {
     margin-bottom: 0;
