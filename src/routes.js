@@ -16,7 +16,31 @@ export const routes = [
     { path: '', component: BlogSelect }
   ] },
 
-  { path: '/blog/personal-growth', component: PersonalGrowth },
-  { path: '/blog/spring-learning-part-1', component: SpringLearningPart1 },
-  { path: '/blog/surviving-life-after-college', component: LifeAfterCollege }
+  { path: '/blog/personal-growth',
+    component: PersonalGrowth,
+    beforeEnter: (to, from, next) => {
+      setTimeout(() => {
+        window.scrollTo(0,0);
+      }, 500);
+      next();
+    }
+   },
+  { path: '/blog/spring-learning-part-1',
+    component: SpringLearningPart1,
+    beforeEnter: (to, from, next) => {
+      setTimeout(() => {
+        window.scrollTo(0,0);
+      }, 500);
+      next();
+    }
+   },
+  { path: '/blog/surviving-life-after-college',
+    component: LifeAfterCollege,
+    beforeEnter: (to, from, next) => {
+      setTimeout(() => {
+        window.scrollTo(0,0);
+      }, 500);
+      next();
+    }
+  }
 ];
