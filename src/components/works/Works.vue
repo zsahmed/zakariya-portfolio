@@ -40,7 +40,6 @@
         <app-romo-project v-if="personal" key="romo"></app-romo-project>
 
     </transition-group>
-
   </div>
 </template>
 
@@ -115,7 +114,7 @@ export default {
     background-image: url("../../assets/projects/worksLandingPage.png");
     background-size: cover;
     width: 100%;
-    height: 500px;
+    height: 550px;
   }
 
   .toggle-container {
@@ -156,9 +155,21 @@ export default {
   }
 
   .landingPage-hr {
-    margin: 0;
+    margin: 0 auto 0 auto;
     border-top: 5px solid #34495e;
+    animation-name: line_animation;
+    animation-duration: 1s;
+    animation-timing-function: linear;
   }
+
+  @keyframes line_animation {
+     from {
+         width: 0%;
+     }
+     to {
+         width:100%;
+     }
+   }
 
   .toggle-container-hr {
     margin-bottom: 0;
