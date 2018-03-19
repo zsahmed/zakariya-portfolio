@@ -1,7 +1,7 @@
 <template lang="html">
   <div class="app-container">
     <app-header></app-header>
-    <transition name="fade" mode="out-in">
+    <transition name="fade" mode="out-in" appear>
       <router-view></router-view>
     </transition>
     <app-footer></app-footer>
