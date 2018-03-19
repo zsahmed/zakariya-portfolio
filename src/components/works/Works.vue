@@ -40,6 +40,7 @@
         <app-romo-project v-if="personal" key="romo"></app-romo-project>
 
     </transition-group>
+    
   </div>
 </template>
 
