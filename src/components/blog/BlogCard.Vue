@@ -20,7 +20,7 @@ export default {
   width: 1000px;
   margin: 25px auto 25px auto;
   color: #34495e;
-  box-shadow: 3px 4px #8888;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
 }
 
 .blog-card-img {
