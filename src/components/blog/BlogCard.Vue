@@ -29,9 +29,9 @@ export default {
   margin-left: auto;
 	margin-right: auto;
 	display: block;
-  border-top: 1px solid #34495e;
-  border-left: 1px solid #34495e;
-  border-right: 1px solid #34495e;
+  border-top: 1px solid #5e3449;
+  border-left: 1px solid #5e3449;
+  border-right: 1px solid #5e3449;
   border-bottom: 2px solid #34495e;
 }
 
@@ -40,9 +40,9 @@ export default {
   padding: 10px 15px 10px 15px;
   font-family: 'Muli';
   background-color: #fafafa;
-  border-bottom: 2px solid #34495e;
-  border-left: 2px solid #34495e;
-  border-right: 2px solid #34495e;
+  border-bottom: 2px solid #5e3449;
+  border-left: 2px solid #5e3449;
+  border-right: 2px solid #5e3449;
   margin: 0px;
 }
 

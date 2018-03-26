@@ -141,3 +141,18 @@ p {
   display: block;
   margin-bottom: 15px;
 }
+
+.btn-success {
+  background-color: #345e49;
+  border-color: #345e49;
+}
+
+.btn-danger {
+  background-color: #5e3449;
+  border-color: #5e3449;
+}
+
+.btn-read {
+  background-color: #34495e;
+  border-color: #34495e;
+}

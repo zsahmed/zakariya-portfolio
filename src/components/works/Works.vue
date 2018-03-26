@@ -40,7 +40,7 @@
         <app-romo-project v-if="personal" key="romo"></app-romo-project>
 
     </transition-group>
-    
+
   </div>
 </template>
 
@@ -144,15 +144,15 @@ export default {
   }
 
   .all {
-    border-bottom: 5px solid #2E8B57;
+    border-bottom: 5px solid #345e49;
   }
 
   .professional {
-    border-bottom: 5px solid #2F4F4F;
+    border-bottom: 5px solid #34495e;
   }
 
   .personal {
-    border-bottom: 5px solid #4B0082;
+    border-bottom: 5px solid #5e3449;
   }
 
   .landingPage-hr {
